@@ -123,8 +123,8 @@ export default {
 			"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
 			"gradient-conic":
 				"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-			bg_banner: "url(./src/assets/background_banner.jpg)",
-			bg_phone: "url(./src/assets/back_phone.jpg)",
+			bg_banner: "url('/src/assets/background_banner.jpg')",
+			bg_phone: "url('/src/assets/back_phone.jpg')",
 		},
 	},
 	plugins: [require("tailwindcss-animate")],
